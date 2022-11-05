@@ -1,0 +1,116 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color:#890596;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+.login-form{
+    width:350px;
+    background-color:#fff;
+    height:400px;
+    border-radius:10px;
+    padding:10px;
+    overflow:hidden;
+}
+
+.inputs{
+    margin-bottom:10px;
+}
+
+.text-center{
+    display:flex;
+    justify-content:center;
+    margin-bottom:10px;
+}
+
+.headings{
+    display:flex;
+    justify-content:center;
+    margin-top:10px;
+    margin-bottom:5px;
+    font-size:25px;
+}
+
+.mb-5{
+    margin-bottom:30px;
+}
+
+.password-input{
+    position:relative;
+    
+}
+
+.password-input i{
+    position:absolute;
+    top:15px;
+    right:17px;
+    cursor:pointer;
+    z-index:10;
+    color:#AAAAAA;
+    transition:all 0.5s;
+}
+
+.password-input i:hover{
+    color:#000;
+}
+
+.login-form .inputs input{
+    height:43px;
+    width:335px;
+    padding-left:10px;
+    border:2px solid #eee;
+    border-radius:5px;
+    transition:all 4s;
+}
+
+.green-color{
+    color:green !important;
+}
+.login-form .inputs input:focus{
+    border:2px solid #890596;
+}
+.strength-list{
+    margin-left:5px;
+    list-style:none;
+}
+.list-group i{
+    font-size:12px;
+    color:#aaa;
+}
+
+.list-group span{
+    font-size:13px;
+    color:#aaa;
+}
+
+.login-button{
+    height:45px;
+    width:347px;
+    margin-top:20px;
+    color:#fff;
+    font-size:14px;
+    cursor:pointer;
+    border:none;
+    border-radius:4px;
+    background-color:#890596;
+    transition:all 0.5s;
+}
+.mt-5{
+    margin-top:5px;
+}
+.login-button:hover{
+    background-color:#A51CA9;
+}
+
+.a-tag{
+    text-decoration:none;
+    color:#890596;
+    margin-left:6px;
+}
